@@ -2,7 +2,7 @@
 Team No.: 2
 Author name: Loftus
 Date completed: 04/19/22
-Description: This is the window for the game to be played in.
+Description: This is the window and canvas for the game to be played in.
 TUTORIAL HELP: https://www.youtube.com/watch?v=hDOGYnqv2jw """
 
 from tkinter import *
@@ -11,9 +11,6 @@ from tkinter import font
 
 playground_width = 500
 playground_height = 500
-space_side = 50
-body_parts = 2
-snake_speed = 180
 snake_color = '#2a4d69' 
 bkg_color = '#adcbe3'
 food_color = '#63ace5'
